@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-Us</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="assets/css/Responsive.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+     <link rel="icon" type="image/x-icon" href="/assets/images/logo2.png">
+</head>
+
+<body>
+    <!-- header start -->
+    <nav>
+        <div class="navbar">
+
+
+            <i class="fa-solid fa-bars"></i>
+            <div class="logo"><a href="/index.html"><img src="assets/images/Logo.png" alt="logo" class="logo"></a></div>
+            <div class="nav-links">
+                <div class="sidebar-logo">
+                    <img src="assets/images/Logo.png" alt="logo" class="logo">
+                    <i class="fa-solid fa-x"></i>
+                </div>
+                <ul class="links">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/About-Us.html">About Us</a></li>
+                   <li class="header-product">
+                Our Products<i class="fa-solid fa-chevron-down js-arrow arrow" style="color: #ea746c;" id="arrowdrop"></i>
+                            <ul class="js-sub-menu sub-menu" id="menusub">
+                                <li><a href="/Product.html">Makhana</a></li>
+                                <li><a href="/Bitten-rice.html">Bitten Rice</a></li>
+                                <li><a href="/Bhagalpuri-Silk-Bed-Cover.html">Bhagalpuri Silk Bed Cover</a></li>
+                                <li><a href="/Bhagalpuri-Dal-Bed-Sheet.html">Bhagalpuri Dal Bed Sheet</a></li>
+                                <li><a href="/Toys.html">Toys</a></li>
+                                <li><a href="/Plastic-Material.html">Plastic Material</a></li>
+                            </ul>
+                    </li>
+
+                    <li><a href="/Contact-Us.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <!-- header end -->
+    <div></div>
+    <br><br>
+    <!-- form-start -->
+    <div class="main-content-form section-pad">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="right">
+                        <h3>Love to hear from you,
+                            Get in touch 👋</h3>
+                        <form  id="ContactFORM" method="post">
+                            <div class="form-ctrl">
+                                <label for="name">Your Name</label>
+                                <input type="text" name="name" placeholder="Enter your name" required="">
+                            </div>
+
+                            <div class="form-ctrl select-form">
+                                <label for="phone">Phone No.</label>
+                                <div class="phn-num">
+                                    <input type="tel" name="phone" placeholder="Enter Phone Number" required="" id="num" pattern="[0-9]{10}" maxlength="10">
+                                </div>
+                            </div>
+                            <div class="form-ctrl emil-sec">
+                                <label for="email">Your Email</label>
+                                <input type="email" name="email1" placeholder="Enter your mail" required="">
+                            </div>
+
+                            <div class="form-ctrl textarea-form">
+                                <label for="textarea">Message</label>
+                                <textarea rows="5" name="message" placeholder="Let tell us know your project about"
+                                    required=""></textarea>
+                            </div>
+                            <button type="submit"  id="sendButton" class="submit">Send message <i
+                                    class="fa-solid fa-arrow-right"></i></button>
+                        </form>
+                        <div id="error"></div>
+                        <div id="response"></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 left-contect">
+                    <h4>Other ways to connect</h4>
+                    <p class="ligt-text">We' love to hear from you. Our friendly team is always here to assist you.</p>
+                    <div class="d-flex">
+                        <img src="assets/images/contact-sms.png" alt="no-image" class="contect-icon">
+                        <ul class="p-0 pt-2">
+                            <a href="#" class="d-flex">
+
+                                <p class="main-text">Reach us on email</p>
+                            </a>
+
+                            <li>
+                                <p class="ligt-text">Our friendly team is here to help.</p>
+                            </li>
+                            <li>
+                                <p class="dark-text">Info@mukherjeeglobalexports.com</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="d-flex">
+                        <img src="assets/images/contact-phone.png" alt="no-image" class="contect-icon">
+                        <ul class="p-0 pt-2">
+                            <a href="#" class="d-flex">
+
+                                <p class="main-text">Phone</p>
+                            </a>
+
+                            <li>
+                                <p class="ligt-text">Mon-Fri from 8am to 5pm.</p>
+                            </li>
+                            <li>
+                                <p class="dark-text">9871488505</p>
+                            </li>
+                            <li>
+                                <p class="dark-text">9013766458</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="d-flex">
+                        <img src="assets/images/contact-location.png" alt="no-image" class="contect-icon">
+                        <ul class="p-0 pt-2">
+                            <a href="#" class="d-flex">
+
+                                <p class="main-text">Office</p>
+                            </a>
+
+                            <li>
+                                <p class="ligt-text">Come say hello at our office HQ.</p>
+                            </li>
+                            <li>
+                                <p class="dark-text">B-51, Upper Ground Floor, Rama Park, Uttamnagar, New Delhi-110059
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer-start  -->
+    <footer>
+        <div class="container-fluid">
+            <div class="row upper-footer">
+            <div class="col-lg-5 mt-1">
+                <ul>
+                    
+                <a href="/index.html"><img src="assets/images/logo2.png" alt="no-image" class="footer-logo"></a>
+                <h6>Textiles are mate</h6>
+                <p>Discover the rich history of textiles at Mukherjee Global Exports. Our products which range from Bittan Rice to Bhagalpuri Silk embodies centuries of Indian workmanship. </p>
+            </ul>
+            </div>
+            <div class="col-lg-2 mt-1 footer-link link-home">
+                <ul>
+                    <h6>Quick Links</h6>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/About-Us.html">About Us</a></li>
+                    <li><a href="/Contact-Us.html">Contact Us</a></li>
+                </ul>
+
+            </div>
+            <div class="col-lg-2 mt-1 footer-link link-home">
+                <ul>
+                    <h6>Our Products</h6>
+                    <li><a href="Product.html">Makhana</a></li>
+                    <li><a href="Bittan-rice.html">Bitten Rice</a></li>
+                    <li><a href="Bhagalpuri-Silk-Bed-Cover.html">Bhagalpuri-Silk-Bed-Cover</a></li>
+                    <li><a href="Bhagalpuri-Dal-Bed-Sheet.html">Bhagalpuri-Dal-Bed-Sheet</a></li>
+                    <li><a href="Toys.html">Toy</a></li>
+                    <li><a href="Plastic-Material.html">Plastic-Material</a></li>
+                </ul>
+
+            </div>
+           
+            <div class="col-lg-3 mt-1 footer-link">
+                <ul >
+                <h6>Contact Us</h6>
+                <div class="d-flex">
+                <div><li><img src="assets/images/phon-icon.png" alt="no-image" class="footer-icon"></li>
+                <li><img src="assets/images/sms-icon.png" alt="no-image" class="footer-icon"></li>
+                <li> <img src="assets/images/glob-icon.png" alt="no-image" class="footer-icon"></li>
+                <li>  <img src="assets/images/location-icon.png" alt="no-image" class="footer-icon"></li>
+                 </div>
+            <div>
+                <li class="mt-2"><a href="#">9871488505, 9013766458</a></li>
+                <li class="mt-2"><a href="#">Info@mukherjeeglobalexports.com</a></li>
+                <li class="mt-2"><a href="#">www.mukherjeeglobal.com</a></li>
+                <li class="mt-2"><a href="#">B-51, Upper Ground Floor, Rama Park, Uttamnagar, New Delhi-110059</a></li>
+            </div> 
+        </div>
+            </ul>
+            </div>
+        </div>
+        </div>
+        <div class="footer-end-div">
+            <div class="container-fluid">
+             <div
+                class="row ">
+                <div class="col-lg-4"><p>Mukherjee Global exports</p></div>
+                <div class="col-lg-4"><p>Copyright © 2021. All rights reserved.</p></div>
+                <div class="col-lg-4">
+                    <div class="d-flex  footer-social">
+                        <a href="https://wa.me/9871488505" target="_blank">
+
+                            <img src="assets/images/whatsp-icon.png" alt="no-image" class="font-icon1"> 
+                        </a>
+                        <a href="#">
+                            <img src="assets/images/facebook-icon.png" alt="no-image" class="font-icon1">
+                        
+                        </a> 
+                       <a href="#"> <img src="assets/images/insta-icon.png" alt="no-image" class="font-icon1">
+                       </a>
+                        
+                       
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+  </footer>
+
+
+
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script>
+        let navLinks = document.querySelector(".nav-links");
+        let menuOpenBtn = document.querySelector(".navbar .fa-bars");
+        let menuCloseBtn = document.querySelector(".nav-links .fa-solid.fa-x");
+
+        menuOpenBtn.addEventListener("click", function () {
+            navLinks.style.top = "0";
+        });
+
+        menuCloseBtn.addEventListener("click", function () {
+            navLinks.style.top = "-100%";
+        });
+         let openArrow = document.getElementById("arrowdrop");
+        openArrow.addEventListener("click", function () {
+            let subMenu = document.getElementById("menusub");
+            let computedStyle = window.getComputedStyle(subMenu);
+
+            if (computedStyle.display === "none") {
+                subMenu.style.display = "block";
+                openArrow.style.transform = "rotate(180deg)"
+            } else {
+                subMenu.style.display = "none";
+                openArrow.style.transform = "rotate(0deg)"
+            }
+        });
+    </script>
+    <script>
+        // function formValidation() {
+        //     var email = document.getElementById("email").value;
+        //     var error = document.getElementById("error");
+
+          
+
+        //     var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        //     if (!email.match(emailPattern)) {
+        //         error.innerHTML += "Invalid email format.<br>";
+        //         return false;
+        //     }
+        //     return true;
+
+        // }
+    </script>
+    <script>
+        $(document).ready(function () {
+    $("#ContactFORM").submit(function (event) {
+        event.preventDefault();
+        $("#name, #email, #message, #sendButton").prop("disabled", true);
+        $("#sendButton").html('<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Sending...');
+        var formData = $(this).serialize();
+console.log(formData);
+        $.ajax({
+            type: "POST",
+            url: "main1.php", 
+            data: formData,
+            success: function (response) {
+                if (response === "success") {
+                   
+                    $("#ContactFORM")[0].reset();
+                     window.location.href = "Thank-You.html";
+                    $("#response").html("Message sent successfully.");
+                } else {
+                    // Display an error message
+                    $("#response").html("Error: " + response);
+                }
+
+                // Re-enable the form elements and reset the button
+                $("#name, #email, #message, #sendButton").prop("disabled", false);
+                $("#sendButton").html("Send");
+            },
+            error: function (xhr, status, error) {
+                // Display an error message
+                $("#response").html("Error: " + error);
+
+                // Re-enable the form elements and reset the button
+                $("#name, #email, #message, #sendButton").prop("disabled", false);
+                $("#sendButton").html("Send message");
+            }
+        });
+    });
+});
+
+    </script>
+</body>
+
+</html>

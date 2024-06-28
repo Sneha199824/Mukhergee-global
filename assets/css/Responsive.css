@@ -1,0 +1,571 @@
+@media screen and (min-width:1250px){
+ 
+
+  .product-contact p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .home-banner-text-div {
+    /* padding: 217px 0 251px 0; */
+}
+
+}
+@media screen and (min-width:1024px){
+  .Our-Mission-Sec-about .row {
+    top:-130px;
+  }
+}
+@media screen and (max-width: 1250px){
+  .banner-text {
+    padding: 100px 30px 100px 50px;
+}
+
+}
+@media screen and (max-width: 991px) {
+    
+      .footer-end-div .row {
+    text-align: center;
+      }
+    .footer-social {
+      justify-content: center;
+  }
+      .home-banner-text-div {
+    padding: 100px 10px;
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+.home-banner-text-div p{
+    padding-top: 15px;
+}
+  .product-contact h2 {
+    font-size: 48px;
+    line-height: 60px;
+    margin-top: 10px;
+   
+  }
+   nav .navbar .links{
+      display: block !important;
+      margin-top: 20px;
+    }
+   nav .navbar .nav-links{
+      position: fixed;
+      overflow: scroll;
+      height: 100%;
+   left: 0;
+    top: -100%;
+    display: block; /* Change display property */
+    width: 100%; /* Occupy entire width */
+   background-color: #FFF2F2;
+    line-height: 40px;
+    padding: 20px;
+    padding-bottom: 70px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease;
+    z-index: 1000;
+}
+  
+  
+  .product-sec .item .main {
+  
+    transform: translateY(0);
+  }
+  .main-content-form .col-lg-8{
+    margin-bottom: 20px;
+  }
+  i.fa-solid.fa-bars, .sidebar-logo{
+    display: block;
+  }
+  .fa-solid.fa-x{
+    font-size: 16px;
+    border: 1px solid #fff;
+    padding: 4px;
+    background-color: #fff;
+    color: black;
+    border-radius: 3px;
+}
+  
+  .container-fluid{
+    padding: 0 20px;
+  }
+  .banner-box {
+    bottom: 0;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    margin-bottom: 30px;
+}
+ 
+  .banner-text{
+    padding: 100px  30px 10px 30px ;
+    text-align: center;
+   
+  }
+  .product-sec .item {
+    width: 49%;
+  }
+  
+  .home-banner {
+    margin-bottom: 20px;
+  }
+    nav .navbar{
+      max-width: 100%;
+      padding: 0 25px;
+      flex-direction: row-reverse;
+    }
+  
+    nav .navbar .logo a{
+      font-size: 27px;
+    }
+    nav .navbar .links li{
+      padding: 0 10px;
+      white-space: nowrap;
+    }
+    nav .navbar .links li{
+      font-size: 18px;
+      color: #333C73;
+      line-height: 24px;
+      font-weight: 500;
+      position: relative;
+      display: flex;
+      margin-top: 40px;
+      
+    }
+   
+    .logo {
+      margin-left: 20px;
+    }
+    .product-con2-div {
+      margin-top: 19px;
+    }
+   
+  .product-contact .vector-icon {
+   height: 20px;
+  }
+  .product-contact h2 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+    nav .navbar .links li::after, .header-product::after{
+      content: "";
+      position: absolute;
+     background-color:#000;
+      height: 1px;
+      width: 100%;
+      top: 30px;
+      left: 0;
+     
+
+    }
+    
+        nav .navbar .links li::before, .header-product::before{
+        content: "";
+        position: absolute;
+        background-color: #000;
+        height: 5px;
+        width: 5px;
+        top: 28.5px;
+        right: -2px;
+        border-radius: 50%;
+            
+        }
+            
+        
+  .header-product::after{
+     
+      width: 98%;
+      top: 30px;
+      left: 0;
+     
+
+    }
+ 
+    form {
+        padding: 0;
+    }
+    
+  }
+  @media screen and (max-width: 768px) {
+       nav .navbar .links li .sub-menu li::after{
+      
+      width: 50%;
+     
+    }
+    nav .navbar .links li .sub-menu li::before{
+         
+       
+      right: 48%;
+      
+        
+    }
+
+      .product-sec .item .main {
+    top: 0;
+    background: linear-gradient(180deg, rgba(28, 28, 28, 0) 4.15%, #1C1C1C 83.12%);
+    display: flex;
+    align-items: end;
+    padding: 10px;
+}
+.Our-Mission-Sec-about .col-lg-5 {
+   
+    text-align: center;
+}
+.why-choose-us .why-choose-text-div {
+ text-align: center;
+  padding: 40px 20px 0 20px;
+}
+.d-flex.vector-div-main {
+    justify-content: center;
+   
+}
+.Our-Mission-Sec-about .col-lg-5 {
+   
+    text-align: center;
+}
+
+
+.product-sec.item .ap{
+  bottom: 70px;
+}
+      .product-heading-text{
+  
+   padding-bottom: 180px;
+}
+      .Our-Mission-Sec-about .col-lg-5 {
+          width:100%;
+      }
+          .Our-Mission-Sec-about .mission-img1 {
+        margin-top: 10px !important;
+    }
+      nav .navbar .links{
+      display: block !important;
+      margin-top: 20px;
+    }
+      .footer-address{
+    margin-left: 27px;
+    
+    font-size: 11px;
+    margin-top: -42px;
+}
+      footer ul li a {
+    font-size: 11px;
+      }
+      footer p {
+          font-size: 11px; 
+      }
+      .why-choose-us .why-choose-img1 {
+   
+    left: -25px;
+   
+}
+    /*.footer p {*/
+    /*  padding-left: 10px;*/
+      
+    /*}*/
+    /*.footer .col-lg-5 h6 {*/
+    /*  padding-left: 10px;*/
+    /*}*/
+    
+    /* .history-sec .his-text-div {
+      margin-top: -83px;
+    } */
+    .item-div {
+      margin-top: -70px;
+    }
+    .mission-banner {
+      padding-bottom: 70px;
+    }
+    .main-content-form {
+      /* margin: 30px 0; */
+      margin: -30px 0 3px 0;
+  }
+    .Our-Mission-Sec-about {
+      
+      margin-bottom: -180px;
+  }
+    .Our-Mission-Sec-about .col-lg-5 {
+      margin-top: 20px;
+     text-align: start;
+    }
+    .Our-Mission-Sec-about .row {
+      
+      bottom: 240px;
+  }
+    .vector-div-main{
+      justify-content: center;
+    }
+    .service-sec-about h2, .why-choose-us h2{
+      font-size: 27px;
+    }
+    nav .navbar {
+      height: 55px;
+    }
+    .history-sec {
+      
+      margin-top: -60px;
+  }
+    .why-choose-us .why-choose-text-div {
+      text-align: center;
+    }
+    .history-sec .his-text-div{
+      text-align: center;
+    }
+    .why-choose-us .why-choose-text-div {
+      text-align: center;
+    }
+    .logo {
+      margin-left: -6px;
+      height: 40px;
+  }
+    .product-contact h2 {
+     
+      margin-top: 10px;
+    }
+    .product-contact p {
+      font-size: 14px;
+     
+  }
+    .product-banner p {
+      font-size: 12px;
+    }
+    .product-banner-text {
+      padding: 70px 0 5px 0;
+  }
+
+    h2{
+      font-size: 24px;
+      line-height: 30px;
+    }
+   
+    p{
+      font-size: 14px;
+      line-height: 20px;
+    }
+    .main-content-form .left {
+        width: 100%;
+    }
+    .main-content-form .right {
+      margin-top: 20px;
+      width: 100%;
+  }
+  form .form-ctrl {
+    width: 100%;
+}
+.product-contact button {
+  padding: 10px;
+  margin-left: 10px;
+}
+button{
+font-size: 14px;
+font-weight: 500;
+line-height: 25px;
+padding: 6px;
+}
+.history-sec .his-text-div {
+  text-align: center;
+}
+.why-choose-us {
+  padding: 60px 0 30px 0;
+}
+.all-itms {
+  
+  top: -90px;
+}
+}
+
+@media screen and (max-width:1024px) {
+
+.product-contact .main-image-box {
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+}
+  
+    .mission-banner p {
+    color: #fff;
+    font-size: 12px;
+}
+  .history-sec .back2img {
+    height: 300px;
+    /* width: 100%; */
+  }
+  .product-contact{
+    padding: 30px 0;
+  }
+  .main-content-form ul li{
+    margin-top: -10px;
+  }
+  nav {
+    padding: 0 30px;
+  }
+  .product-sec .item .ap h5 {
+    font-size: 14px;
+  }
+  .product-heading-text h2 {
+    font-size: 24px;
+    padding: 0 25px;
+   
+  }
+  p{
+    font-size: 14px;
+  }
+  h2 {
+    font-size: 24px;
+        line-height: 35px;
+        padding-top: 5px;
+  }
+  .product-contact h2 {
+    font-size: 24px;
+    line-height: 39px;
+    margin-top: -10px;
+   
+    margin-top: 5px;
+}
+  .product-contact p {
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 4px;
+  }
+  
+.red-text{
+  font-size: 19px;
+}
+ 
+  
+   footer .font-icon1 {
+    margin: 0 5px;
+   }
+
+ .history-sec .his-text-div {
+  
+  padding-bottom: 20px;
+}
+h3{
+  font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+}
+.service-sec .service-text h3 {
+  font-size: 24px;
+  line-height: 30px;
+  padding-bottom: 20px
+}
+.service-sec .col-lg-3 {
+  margin: 10px 0;
+  width: 280px;
+}
+
+.why-choose-us .why-choose-img1 {
+    left:-20px;
+}
+
+.why-choose-us {
+    padding: 60px 0;
+}
+}
+  @media (max-width:991px){
+    nav{
+      /* position: relative; */
+    }
+    .navbar .bx-menu{
+      display: block !important;
+      color: black;
+    }
+   
+  
+    .navbar .nav-links .sidebar-logo{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .sidebar-logo .logo-name{
+      font-size: 25px;
+      color: #fff;
+    }
+      .sidebar-logo  i,
+      .navbar .bx-menu{
+        font-size: 25px;
+        color: #fff;
+      }
+    
+    nav .navbar .links li .arrow{
+      line-height: 1;
+    }
+  nav .navbar .links li{
+      display: block;
+    }
+  nav .navbar .links li .sub-menu{
+    position: relative;
+    top: 0;
+    box-shadow: none;
+    display: none;
+  }
+  nav .navbar .links li .sub-menu li{
+    border-bottom: none;
+  
+  }
+  .navbar .links li .sub-menu .more-sub-menu{
+    display: none;
+    position: relative;
+    left: 0;
+  }
+  .navbar .links li .sub-menu .more-sub-menu li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .links li:hover .htmlcss-arrow,
+  .links li:hover .js-arrow{
+    transform: rotate(180deg);
+    }
+    .navbar .links li .sub-menu .more-sub-menu{
+      display: none;
+    }
+    .navbar .links li .sub-menu .more span{
+      /* background: red; */
+      display: flex;
+      align-items: center;
+      /* justify-content: space-between; */
+    }
+  
+    .links li .sub-menu .more:hover .more-sub-menu{
+      display: none;
+    }
+    nav .navbar .links li:hover .htmlCss-sub-menu,
+    nav .navbar .links li:hover .js-sub-menu{
+      display: block;
+    }
+  .navbar .nav-links.show1 .links .htmlCss-sub-menu,
+    .navbar .nav-links.show3 .links .js-sub-menu,
+    .navbar .nav-links.show2 .links .more .more-sub-menu{
+        display: block;
+      }
+      .navbar .nav-links.show1 .links .htmlcss-arrow,
+      .navbar .nav-links.show3 .links .js-arrow{
+          transform: rotate(180deg);
+  }
+      .navbar .nav-links.show2 .links .more-arrow{
+        transform: rotate(90deg);
+      }
+  }
+  @media (max-width:500px){
+    .product-contact .product-con2{
+      height: 100px;
+    }
+    .main-content-form {
+      margin-bottom: -20px;
+      margin-top: -20px;
+  }
+  .product-sec .item {
+    width: 100%;
+  }
+  .product-contact .main-image-box {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+ 
+  
+}
+
+ 
